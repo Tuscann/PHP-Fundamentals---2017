@@ -41,8 +41,7 @@
         <?php
         if (isset($_GET['submit'])) {
             $start = $_GET['start'];
-            $end = $_GET['end'];
-            $is_prime = false;
+            $end = $_GET['end'];          
 
             for ($i = $start; $i <= $end; $i++ ) {
                 $counter = 0;
